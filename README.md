@@ -10,13 +10,13 @@ Install ZSH and OH-MY-ZSH (make sure to switch your default shell to ZSH using
 software at your own risk.
 
 ``` html
-curl -L https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh | sh
+curl -L https://github.com/ordabool/dotfiles/raw/master/tools/install.sh | sh
 ```
 
 or
 
 ``` html
-wget --no-check-certificate https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh -O - | sh
+wget --no-check-certificate https://github.com/ordabool/dotfiles/raw/master/tools/install.sh -O - | sh
 ```
 
 Installation script installs only dotfiles for the components that are installed on
@@ -46,14 +46,14 @@ to get similar effect.
 ZSH + GIT
 ----------
 
-![dotfiles](https://raw.github.com/sergeylukin/dotfiles/master/img/screen-zsh-git.jpg)
+![dotfiles](https://raw.github.com/ordabool/dotfiles/master/img/screen-zsh-git.jpg)
 
 VIM
 ---
 
 - Run `:BundleInstall` the first time you open VIM to install all plugins
 
-![dotfiles](https://raw.github.com/sergeylukin/dotfiles/master/img/screen-vim.jpg)
+![dotfiles](https://raw.github.com/ordabool/dotfiles/master/img/screen-vim.jpg)
 
 Installation tips
 -----------------
