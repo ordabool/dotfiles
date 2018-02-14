@@ -60,14 +60,14 @@ nmap <leader>r :checktime<cr>
 
 " Disable arrow keys to improve moving around with h,j,k,l
 " Taken from http://bit.ly/10Fvzgn
-" inoremap <Up> <NOP>
-" vnoremap <Up> <NOP>
-" inoremap <Down> <NOP>
-" vnoremap <Down> <NOP>
-" inoremap <Left> <NOP>
-" inoremap <Right> <NOP>
-" vnoremap <Left> <NOP>
-" vnoremap <Right> <NOP>
+inoremap <Up> <NOP>
+vnoremap <Up> <NOP>
+inoremap <Down> <NOP>
+vnoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+vnoremap <Left> <NOP>
+vnoremap <Right> <NOP>
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
