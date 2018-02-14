@@ -8,6 +8,26 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
+5
+normal! zo
+20
+normal! zo
+30
+normal! zo
+89
+normal! zo
+122
+normal! zo
+193
+normal! zo
+224
+normal! zo
+247
+normal! zo
+263
+normal! zo
+284
+normal! zo
 lcd ~/
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
