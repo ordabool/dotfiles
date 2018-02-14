@@ -246,9 +246,9 @@ autocmd InsertLeave * let &l:foldmethod=w:last_fdm
 "----------------------"
 " Code completion {{{
 "----------------------"
-imap <Tab> <C-n>
-imap <S-Tab> <C-p>
-" imap <leader><tab> <C-x><C-o>
+imap <S-x> <C-n>
+imap <S-z> <C-p>
+imap <S-Tab> <C-x><C-o>
 " http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
 " set completeopt=longest,menuone
 " inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
