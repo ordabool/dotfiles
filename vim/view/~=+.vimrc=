@@ -24,9 +24,15 @@ normal! zo
 normal! zo
 247
 normal! zo
-263
+264
 normal! zo
-284
+285
+normal! zo
+329
+normal! zo
+360
+normal! zo
+369
 normal! zo
 lcd ~/
 let &so = s:so_save | let &siso = s:siso_save

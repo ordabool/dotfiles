@@ -249,6 +249,7 @@ autocmd InsertLeave * let &l:foldmethod=w:last_fdm
 imap <S-x> <C-n>
 imap <S-z> <C-p>
 imap <S-Tab> <C-x><C-o>
+" Emmet plugin mapping
 " http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
 " set completeopt=longest,menuone
 " inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -299,7 +300,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 Bundle 'tobyS/pdv'
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
+" nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
 
 " PHP-CS-Fixer VIM plugin
 " Correct visual representation of code according to PSR standards
@@ -327,8 +328,21 @@ let g:jsx_ext_required = 0
 "---------------------------"
 " Pathogen - Plugins manager {{{
 "---------------------------"
+
+ " call pathogen#infect()
+ " filetype off
+ " syntax on
+ " filetype plugin indent on
 call pathogen#infect()
 " }}}
+
+"----------------------"
+" PLUGIN - CtrlP {{{
+"----------------------"
+let g:ctrlp_map = '<C-p>'
+let g:ctrlp_cmd = 'CtrlP'
+" }}}
+
 
 "----------------------"
 " PLUGIN - NERDTree {{{
