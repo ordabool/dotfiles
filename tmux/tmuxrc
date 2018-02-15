@@ -100,3 +100,6 @@ bind - \
 
 # Add rainbarf panel
 set -g status-right '#(rainbarf --rgb)'
+# For tmux powerline install on Fedora, use the following link and command:
+# https://fedoramagazine.org/add-power-terminal-powerline/
+# sudo dnf install tmux-powerline
