@@ -240,6 +240,8 @@ autocmd BufWinEnter,BufReadPre,FileReadPre      *.gpg normal zM
 " leaving insert mode. Foldmethod is local to the window.
 autocmd InsertEnter * let w:last_fdm=&foldmethod | setlocal foldmethod=manual
 autocmd InsertLeave * let &l:foldmethod=w:last_fdm
+" Set EJS files to HTML syntax
+au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
 
