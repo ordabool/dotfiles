@@ -22,11 +22,6 @@ alias ...='cd ../../' # Go Up 2 levels
 alias cdd='cd -' # Go Back
 alias desk='cd ~/Desktop' # Shortcut to code dir
 alias code='cd ~/code' # Shortcut to code dir
-alias www='cd /var/www/html/sandbox/websites/www' #Shortcut to WWW/html dir
-alias room='cd /var/www/html/sandbox/websites/room' #Shortcut to room app
-alias websites='cd /var/www/html/sandbox/websites' # Shortcut to websites dir
-alias shared='cd /var/www/html/sandbox/websites/shared' #Shortcut to shared dir
-alias adminroom='cd /var/www/html/sandbox/websites/adminroom'
 alias dotfiles='cd ~/.dotfiles' # Shortcut to CLI dotfiles dir
 alias guifiles='cd ~/.dotfiles-xfce' # Shortcut to GUI dotfiles dir
 
